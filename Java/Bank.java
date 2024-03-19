@@ -7,16 +7,17 @@ public class Bank {
         float money = 1000;
         boolean condition = true;
 
-        while (condition) {
-
+        while (condition) 
+        {
         Scanner value = new Scanner(System.in);
         System.out.println("Enter a number : \n1. Show balance\n2. Deposit money \n3. Withdraw money \n4. Log out of the system\n");
 
         int num = value.nextInt();
 
-            switch (num) {
+            switch (num) 
+            {
                 case 1:
-                    Goster(money);
+                    Show(money);
                     break;
 
                 case 2:
@@ -28,7 +29,7 @@ public class Bank {
                     break;
 
                 default:
-                    Cikis(condition);
+                    Exit(condition);
                     break;
             }
             value.close();
@@ -36,7 +37,7 @@ public class Bank {
     }
 
 
-    public static void Goster(float money)
+    public static void Show(float money)
     {
         System.out.println(money);
     }
@@ -71,7 +72,7 @@ public class Bank {
         }
     }
 
-    public static void Cikis(boolean condition)
+    public static void Exit(boolean condition)
     {
         condition = false;
     }
