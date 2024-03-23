@@ -1,37 +1,27 @@
 public class StopWatch_Class {
-    
-    private long startTime;
-    private long endTime;
-    
-    
-    StopWatch_Class()
-    {
-        start();
-    }
-
-
-    public void start()
-    {
-        startTime = System.currentTimeMillis();
-    }
-    public void stop()
-    {
-        endTime = System.currentTimeMillis();
-    }
-
-
-    public void getStartTime()
-    {
-        startTime = System.currentTimeMillis();
-    }
-    public void getEntTime()
-    {
-        endTime = System.currentTimeMillis();
-    }
-
-
-    public int getElapsedTime()
-    {
-        return (int)(endTime - startTime);
-    }
+    long startTime, endTime;
+	
+	StopWatch_Class(){
+		start();
+	}
+	
+	void start() {
+		startTime=System.currentTimeMillis();
+	}
+	
+	void stop() {
+		endTime=System.currentTimeMillis();
+	}
+	
+	long getElapsedTime() {
+		return endTime-startTime;
+	}
+	
+	long getStartTime() {
+		return startTime;
+	}
+	
+	long getEndTime() {
+		return endTime;
+	}
 }
