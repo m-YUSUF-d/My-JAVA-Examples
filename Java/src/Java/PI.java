@@ -1,4 +1,6 @@
-class PI {
+package Java;
+
+public class PI {
     public static void main(String[] args)
     {
         final int NUNBER_OF_TRIALS = 1000000; // Number of primes to display
