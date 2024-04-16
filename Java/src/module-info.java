@@ -4,5 +4,5 @@
 /**
  * 
  */
-module AA {
+module Java {
 }
