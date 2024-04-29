@@ -1,4 +1,4 @@
-package Java;
+package Examples;
 
 public class Sinus {
 	public static void main(String[] args) throws InterruptedException {

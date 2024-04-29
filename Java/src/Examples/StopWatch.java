@@ -1,4 +1,4 @@
-package Java;
+package Examples;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package Java;
+package Examples;
 
 public class Students_Class {
 

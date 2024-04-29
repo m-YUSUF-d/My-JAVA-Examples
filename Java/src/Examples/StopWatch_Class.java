@@ -1,4 +1,4 @@
-package Java;
+package Examples;
 
 public class StopWatch_Class {
 	long startTime, endTime;
