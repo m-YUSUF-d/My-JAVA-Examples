@@ -21,7 +21,9 @@ public class Try_Catch {
 			} catch (ArithmeticException ex) {
 				System.out.println("Divisor can't be zero.\n");
 			}
-
+			finally {
+				System.out.println("This line working after exception.\n");
+			}
 		} while (continueInput);
 
 		value.close();
