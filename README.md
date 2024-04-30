@@ -1,2 +1,2 @@
 # My-JAVA-Examples
-Examples in my Object Oriented Programming lesson. Codes in "src" folder.
+Examples in my Object Oriented Programming lesson. Codes in "Java/src/" location.
