@@ -22,7 +22,7 @@ public class Try_Catch {
 				System.out.println("Divisor can't be zero.\n");
 			}
 			finally {
-				System.out.println("This line working after exception.\n");
+				System.out.println("This line working after exception.\n* * * * * * * * * * * * * * * * * * * *\n");
 			}
 		} while (continueInput);
 

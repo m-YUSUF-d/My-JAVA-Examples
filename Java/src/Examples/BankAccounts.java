@@ -1,7 +1,6 @@
 package Examples;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 class MainBankAccount {
 	private String accountNo;
@@ -119,7 +118,6 @@ public class BankAccounts {
 		bankAccounts.add(new GoldAccount("15234", "Mehmet", 4000, "TL", 2000));
 		bankAccounts.add(new EuroAccount("44556", "Ali", 2000, "TL", 30.5));
 
-		
 		// main
 		System.out.println("Main*********************************");
 		bankAccounts.get(0).LoadMoney(1500);
@@ -127,7 +125,6 @@ public class BankAccounts {
 		bankAccounts.get(0).PrintAccountInfos();
 		System.out.println("*************************************");
 
-		
 		// deposit
 		System.out.println("\nDeposit******************************");
 		((DepositAccount) bankAccounts.get(1)).AddInterest();
@@ -135,7 +132,6 @@ public class BankAccounts {
 		bankAccounts.get(1).PrintAccountInfos();
 		System.out.println("*************************************");
 
-		
 		// gold
 		System.out.println("\nGold*********************************");
 		((GoldAccount) bankAccounts.get(2)).BuyGold(3);
@@ -143,7 +139,6 @@ public class BankAccounts {
 		bankAccounts.get(2).PrintAccountInfos();
 		System.out.println("*************************************");
 
-		
 		// euro
 		System.out.println("\nEuro*********************************");
 		((EuroAccount) bankAccounts.get(3)).BuyEuro(2500);
