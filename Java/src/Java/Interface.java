@@ -1,7 +1,7 @@
 package Java;
 
 interface Edible {
-	public void howToEat();
+	void howToEat();
 }
 
 class Chicken implements Edible {
